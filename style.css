@@ -1,5 +1,5 @@
 body {
-  background-image: url("bg.png");
+  background-image: url("img/bg.png");
   background-repeat: repeat-x;
   font-family: Arial;
   padding-top: 20px;
@@ -23,11 +23,26 @@ body {
 
 #menu {
   display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#menu img {
+  vertical-align: middle;
+}
+
+#menu .menu-item {
+  margin: 0 0 15px 10px;
+  border-right: 1px solid #fff;
 }
 
 .option {
-  padding: 10px;
-  border-right: 2px solid grey;
+  padding: 0 15px 0 10px;
+  color: #666666;
+
 }
 
 #topbar {
@@ -72,7 +87,7 @@ button:hover {
 }
 
 #content {
-  background-image: url("bg.png");
+  background-image: url("img/bg.png");
   background-repeat: repeat-x;
   border: 3px solid #fff;
   display: flex;
